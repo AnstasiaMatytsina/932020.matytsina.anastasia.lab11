@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/styles.css">
+        <title>task11</title>
+    </head>
+    <body>
+        <div class="page">
+            <header> 
+                <p class="h1-header">Backend1</p>
+                <a class="button-header" href="">Home</a>
+            </header>
+
+            <div class="content">
+                <h1 class="title">Calc Service Demonstration</h1>
+                <ul>
+                    <li><a href="CalcService/PassUsingModel">Using Model Calc</a></li>
+                    <li><a href="CalcService/PassUsingViewData">Using ViewData Calc</a></li>
+                    <li><a href="CalcService/PassUsingViewBag">Using ViewBag Calc</a></li>
+                    <li><a href="CalcService/AccessServiceDirectly">Using Service Injection Calc</a></li>
+                </ul>
+
+            </div>
+
+            <footer><p>2023 - Backend1 MatytsinaAnastasia</p></footer>
+
+        </div>
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    </body>
+</html>
